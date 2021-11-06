@@ -96,12 +96,16 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: black;
   height: 100%;
   width: 100%;
+  font-size: 1em;
+  
 }
 
 body {
+  display: flex;
+  justify-content: center;
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
   font-size: 1.25em;
@@ -111,9 +115,22 @@ body {
 
 header,
 footer {
+  display: flex;  
   background-color: #222;
-  height: 80px;
+  height: 135px;
   width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    font-family:'Comfortaa', cursive;
+    font-size: 3em;
+    color: #ff6666;
+    flex-flow: row nowrap;
+    padding-left: 20px;
 }
 
 main {
@@ -122,33 +139,65 @@ main {
   width: 100%;
 }
 
-header,
+
 footer,
 main {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  font-family: Tahoma, sans-serif;
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #ffcccc;
+  line-height: 1.5em;
+  padding-right: 20px;
+  padding-left: 20px;
 }
+span {
+    font-family:'Comfortaa', cursive;
+    color: #ff6666;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: black;
+  font-family: 'Comfortaa', cursive; 
+  font-size: 1em;
+  font-weight: lighter;
+  color: #ff6666;
+  line-height: 1em;
+
+}
+
 
 .flex-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 .flex-items {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  flex-grow: 2;
+  color: #ffcccc;
+  line-height: 1.7em;
+  font-size: 1em;
+  background-color: black;
   width: 30%;
   height: 200px;
-
+  padding: 20px;
+  border-top: 1px dashed #ff6666;
+  border-bottom: 1px dashed #ff6666;
 }
+
+
 
 /* ==========================================================================
    Helper classes
