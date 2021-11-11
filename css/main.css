@@ -157,6 +157,7 @@ main {
 span {
     font-family:'Comfortaa', cursive;
     color: #ff6666;
+    text-decoration: underline;
 }
 footer{
   display: flex;
