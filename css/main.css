@@ -158,7 +158,6 @@ main {
 span {
     font-family:'Comfortaa', cursive;
     color: #ff6666;
-    text-decoration: underline;
 }
 footer{
   display: flex;
@@ -171,7 +170,6 @@ footer{
   font-weight: lighter;
   color: #ff6666;
   line-height: 1em;
-  text-decoration: underline;
 
 }
 
